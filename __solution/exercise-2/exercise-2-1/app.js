@@ -9,6 +9,7 @@ for (let laneCount = 1; laneCount <= FROGS; laneCount++) {
     // 2. Create li
     let lane = document.createElement('li');
     track.appendChild(lane);
+
     
     // 3. Create span and add it to the li
     let number = document.createElement('span');
@@ -17,4 +18,5 @@ for (let laneCount = 1; laneCount <= FROGS; laneCount++) {
     
     // 4. Assign an id to each lane
     lane.id = `frog-${laneCount}`;
+    console.log(lane);
 }

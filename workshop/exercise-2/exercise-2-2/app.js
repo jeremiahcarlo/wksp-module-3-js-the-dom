@@ -17,4 +17,7 @@ lane.appendChild(number);
     // 4. Assign an id to each lane
 lane.id = "frog-" + laneCount;
 console.log(lane);
+
+let racers 
 }
+

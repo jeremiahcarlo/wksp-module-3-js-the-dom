@@ -5,8 +5,9 @@
 ## [setTimeout()](https://www.w3schools.com/jsref/met_win_settimeout.asp)
 
 ```js
-// Example
-
+setTimeout(function() {
+    console.log("Hello")
+}, 1000);
 ```
 
 ---
@@ -14,8 +15,15 @@
 ## [setInterval()](https://www.w3schools.com/jsref/met_win_setinterval.asp)
 
 ```js
-// Example
+setInterval(function() {
+    console.log('here!');
+} 1000);
 
+const myTimer = setInterval(function() {
+    console.log('here!');
+}, 1000);
+//to stop interval
+clearInterval(myTimer);
 ```
 
 ---
